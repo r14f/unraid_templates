@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/141938-support-nzbget-ngnzbget/</Support>
+  <Support>nzbget-ng.github.io</Support>
   <Project>https://github.com/nzbget-ng/nzbget</Project>
   <Overview>NZBGet is a binary downloader, which downloads files from Usenet based on information provided by nzb-files.&#xD;
 &#xD;
@@ -25,10 +25,10 @@ This is a summary. For full documentation, please visit the NZBGet-NG home page 
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1689128706</DateInstalled>
+  <DateInstalled>1689143519</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="/data" Target="/data" Default="/mnt/user/appdata/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/data</Config>
+  <Config Name="/data" Target="/data" Default="/mnt/user/appdata/nzbget-ng" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nzbget-ng</Config>
   <Config Name="Host Port 1" Target="6789" Default="6789" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
-</Container>
+</Container
