@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>nzbget-ng</Name>
-  <Repository>nzbget-ng/nzbget</Repository>
+  <Repository>mouton99/nzbget-ng</Repository>
   <Registry>https://github.com/nzbget-ng/nzbget</Registry>
-  <Network>bridge</Network>
+  <Network>eraflew</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -25,7 +25,7 @@ This is a summary. For full documentation, please visit the NZBGet-NG home page 
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1689127965</DateInstalled>
+  <DateInstalled>1689128706</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
