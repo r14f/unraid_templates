@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>nzbget-ng.github.io</Support>
+  <Support>https://forums.unraid.net/topic/141938-support-nzbget-ngnzbget/</Support>
   <Project>https://github.com/nzbget-ng/nzbget</Project>
   <Overview>NZBGet is a binary downloader, which downloads files from Usenet based on information provided by nzb-files.&#xD;
 &#xD;
