@@ -3,7 +3,7 @@
   <Name>nzbget-ng</Name>
   <Repository>mouton99/nzbget-ng</Repository>
   <Registry>https://github.com/nzbget-ng/nzbget</Registry>
-  <Network>eraflew</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -25,10 +25,13 @@ This is a summary. For full documentation, please visit the NZBGet-NG home page 
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1689143519</DateInstalled>
+  <DateInstalled>1689146125</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="/data" Target="/data" Default="/mnt/user/appdata/nzbget-ng" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nzbget-ng</Config>
+  <Config Name="/data" Target="/data" Default="/mnt/user/appdata/nzbget-ng" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data</Config>
   <Config Name="Host Port 1" Target="6789" Default="6789" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
-</Container
+  <Config Name="Key 1" Target="UMASK" Default="000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">000</Config>
+  <Config Name="Key 2" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="key 3" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+</Container>
