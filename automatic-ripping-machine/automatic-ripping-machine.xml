@@ -13,7 +13,7 @@
 &#xD;
 See: https://b3n.org/automatic-ripping-machine&#xD;
 &#xD;
-use lsscsi -g on root of unraid to get info for --device for cd/dvd/blurat drive&#xD;
+use lsscsi -g on root of unraid to get info for --device for cd/dvd/bluray drive&#xD;
 &#xD;
 for handbrake presets https://handbrake.fr/docs/en/latest/technical/official-presets.html&#xD;
 </Overview>
