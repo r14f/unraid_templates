@@ -13,9 +13,9 @@
 &#xD;
 See: https://b3n.org/automatic-ripping-machine&#xD;
 &#xD;
+use lsscsi -g on root of unraid to get info for --device for cd/dvd/blurat drive&#xD;
 &#xD;
-use         lsscsi -g &#xD;
-on root of unraid to get info for --device for cd/dvd/blurat drive&#xD;
+for handbrake presets https://handbrake.fr/docs/en/latest/technical/official-presets.html&#xD;
 </Overview>
   <Category>Backup:</Category>
   <WebUI>http://[IP]:[PORT:8088]/</WebUI>
@@ -24,7 +24,7 @@ on root of unraid to get info for --device for cd/dvd/blurat drive&#xD;
   <ExtraParams>--device /dev/sr0 --device /dev/sg1</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1689736719</DateInstalled>
+  <DateInstalled>1689737066</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
