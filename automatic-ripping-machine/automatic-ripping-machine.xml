@@ -41,7 +41,7 @@ https://github.com/automatic-ripping-machine/automatic-ripping-machine/wiki/Dock
   <Config Name="PUID" Target="ARM_UID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="ARM_GID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
   <Config Name="Host Path 2" Target="/home/arm/Music" Default="/mnt/user/appdata/ARM/music" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/music</Config>
-  <Config Name="Host Path 3" Target="/home/arm/config" Default="/mnt/user/appdata/ARM/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/config</Config>
+  <Config Name="Host Path 3" Target="/etc/arm/config" Default="/mnt/user/appdata/ARM/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/config</Config>
   <Config Name="Host Path 4" Target="/home/arm/logs" Default="/mnt/user/appdata/ARM/logs" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/logs</Config>
   <Config Name="Host Path 5" Target="/home/arm/media" Default="/mnt/user/appdata/ARM/media" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/media</Config>
 </Container>
