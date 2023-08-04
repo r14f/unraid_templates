@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>homechart</Name>
+  <Repository>ghcr.io/candiddev/homechart:latest</Repository>
+  <Registry>ghcr.io/candiddev/homechart:latest</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Homechart is a productivity application to manage your household data--budgets, tasks, recipes, and more. Homechart can run in your browser or on your Android and iOS devices via an app.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1691111806</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="HOMECHART_POSTGRESQL_HOSTNAME" Target="HOMECHART_POSTGRESQL_HOSTNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="HOMECHART_POSTGRESQL_PASSWORD" Target="HOMECHART_POSTGRESQL_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">password</Config>
+  <Config Name="HOMECHART_POSTGRESQL_USERNAME" Target="HOMECHART_POSTGRESQL_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">homechart</Config>
+  <Config Name="Host Port 1" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="HOMECHART_POSTGRESQL_PORT" Target="HOMECHART_POSTGRESQL_PORT" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
+  <Config Name="HOMECHART_POSTGRESQL_DATABASE" Target="HOMECHART_POSTGRESQL_DATABASE" Default="homechart" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgres</Config>
+  <Config Name="HOMECHART_APP_ADMINEMAILADDRESSES" Target="HOMECHART_APP_ADMINEMAILADDRESSES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">admin@google.com</Config>
+</Container>
