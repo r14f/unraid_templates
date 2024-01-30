@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/141938-support-nzbget-ngnzbget/</Support>
   <Project>https://github.com/nzbgetcom/nzbget</Project>
   <Overview>NZBGet is a binary downloader, which downloads files from Usenet based on information provided by nzb-files.&#xD;
 &#xD;
@@ -29,8 +29,11 @@ This is a summary. For full documentation, please visit the NZBGet-NG home page 
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="/data" Target="/data" Default="/mnt/user/appdata/nzbget-ng" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data</Config>
-  <Config Name="Host Port 1" Target="6789" Default="6789" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/nzbget-ng" Mode="rw" Description="NZBGet-ng appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nzbget-ng</Config>
+  <Config Name="Path: /downloads" Target="/downloads" Default="" Mode="rw" Description="Location of downloads on disk." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/downloads</Config>
+  <Config Name="Host Port 1" Target="6789" Default="6789" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
+  <Config Name="NZBGET_USER" Target="NZBGET_USER" Default="nzbget" Mode="" Description="Specify the user for web authentication." Type="Variable" Display="always" Required="false" Mask="false">nzbget</Config>
+  <Config Name="NZBGET_PASS" Target="NZBGET_PASS" Default="tegbzn6789" Mode="" Description="Specify the password for web authentication." Type="Variable" Display="always" Required="false" Mask="true">tegbzn6789</Config>
   <Config Name="Key 1" Target="UMASK" Default="000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">000</Config>
   <Config Name="Key 2" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="key 3" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
