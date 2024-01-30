@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>nzbget-ng</Name>
-  <Repository>mouton99/nzbget-ng</Repository>
+  <Repository>nzbgetcom/nzbget</Repository>
   <Registry>https://github.com/nzbget-ng/nzbget</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>nzbget-ng.github.io</Support>
-  <Project>https://github.com/nzbget-ng/nzbget</Project>
+  <Support/>
+  <Project>https://github.com/nzbgetcom/nzbget</Project>
   <Overview>NZBGet is a binary downloader, which downloads files from Usenet based on information provided by nzb-files.&#xD;
 &#xD;
 NZBGet is written in C++ and is known for its performance and efficiency.&#xD;
@@ -20,12 +20,12 @@ The download area provides precompiled binaries for Windows, macOS, Linux (compa
 This is a summary. For full documentation, please visit the NZBGet-NG home page at: http://nzbget-ng.github.io</Overview>
   <Category>Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:6789]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/W3LFARe/unraid_templates/master/nzbget-ng/nzbget-ng.xml</TemplateURL>
   <Icon>https://avatars.githubusercontent.com/u/121837341?s=48&amp;amp;v=4</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1689146125</DateInstalled>
+  <DateInstalled>1706585403</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
