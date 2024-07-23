@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>automatic-ripping-machine</Name>
-  <Repository>automaticrippingmachine/automatic-ripping-machine:latest</Repository>
+  <Repository>1337server/automatic-ripping-machine:latest</Repository>
   <Registry>https://github.com/automatic-ripping-machine/automatic-ripping-machine</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -26,21 +26,20 @@ https://github.com/automatic-ripping-machine/automatic-ripping-machine/wiki/Dock
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/automatic-ripping-machine/automatic-ripping-machine/main/favicon.ico</Icon>
-  <ExtraParams>--runtime=nvidia   --device /dev/sr0 --device /dev/sg1</ExtraParams>
+  <ExtraParams>--runtime=nvidia --gpus all --device /dev/sr0 --device /dev/sg1</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1690161979</DateInstalled>
+  <DateInstalled>1721774428</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="appdata" Target="/home/arm" Default="/mnt/user/appdata/ARM/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/</Config>
   <Config Name="Webserver port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8088</Config>
   <Config Name="NVIDIA_DRIVER_CAPABILITIES" Target="NVIDIA_DRIVER_CAPABILITIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
-  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">all</Config>
-  <Config Name="key 1" Target="UMASK" Default="000" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">000</Config>
-  <Config Name="PUID" Target="ARM_UID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="ARM_GID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
-  <Config Name="Host Path 2" Target="/home/arm/Music" Default="/mnt/user/appdata/ARM/music" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/music</Config>
+  <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">GPU-9152780a-a0e6-3877-b6fd-01ec4b6c22be</Config>
+  <Config Name="PUID" Target="ARM_UID" Default="1001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1001</Config>
+  <Config Name="PGID" Target="ARM_GID" Default="1001" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1001</Config>
+  <Config Name="appdata" Target="/home/arm" Default="/mnt/user/appdata/ARM/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/</Config>
+  <Config Name="Host Path 2" Target="/home/arm/Music" Default="/mnt/user/appdata/ARM/music" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/Music</Config>
   <Config Name="Host Path 3" Target="/etc/arm/config" Default="/mnt/user/appdata/ARM/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/config</Config>
   <Config Name="Host Path 4" Target="/home/arm/logs" Default="/mnt/user/appdata/ARM/logs" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/logs</Config>
   <Config Name="Host Path 5" Target="/home/arm/media" Default="/mnt/user/appdata/ARM/media" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ARM/media</Config>
