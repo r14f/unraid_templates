@@ -3,7 +3,7 @@
   <Name>homechart</Name>
   <Repository>ghcr.io/candiddev/homechart:latest</Repository>
   <Registry>ghcr.io/candiddev/homechart:latest</Registry>
-  <Network>bridge</Network>
+  <Network>eraflew</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -12,24 +12,24 @@
   <Overview>Homechart is a productivity application to manage your household data--budgets, tasks, recipes, and more. Homechart can run in your browser or on your Android and iOS devices via an app.&#xD;
 &#xD;
 &#xD;
-Requires POSTGRESQL database to be set up &#xD;
+Requires POSTGRESQL 15 database to be set up &#xD;
 All data is stored in database</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
-  <Icon>https://docs.homechart.app/logo.png</Icon>
+  <Icon>https://homechart.app/homechart.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1691113314</DateInstalled>
+  <DateInstalled>1721795469</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Host Port 1" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
-  <Config Name="HOMECHART_POSTGRESQL_HOSTNAME" Target="HOMECHART_POSTGRESQL_HOSTNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="HOMECHART_POSTGRESQL_PASSWORD" Target="HOMECHART_POSTGRESQL_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">password</Config>
-  <Config Name="HOMECHART_POSTGRESQL_USERNAME" Target="HOMECHART_POSTGRESQL_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">homechart</Config>  
-  <Config Name="HOMECHART_POSTGRESQL_PORT" Target="HOMECHART_POSTGRESQL_PORT" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
-  <Config Name="HOMECHART_POSTGRESQL_DATABASE" Target="HOMECHART_POSTGRESQL_DATABASE" Default="homechart" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgres</Config>
-  <Config Name="HOMECHART_APP_ADMINEMAILADDRESSES" Target="HOMECHART_APP_ADMINEMAILADDRESSES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="HOMECHART_postgresql_hostname" Target="HOMECHART_postgresql_hostname" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="HOMECHART_postgresql_password" Target="HOMECHART_postgresql_password" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">password</Config>
+  <Config Name="HOMECHART_postgresql_username" Target="HOMECHART_postgresql_username" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">homechart</Config>
+  <Config Name="HOMECHART_postgresql_port" Target="HOMECHART_postgresql_port" Default="5432" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
+  <Config Name="HOMECHART_postgresql_database" Target="HOMECHART_postgresql_database" Default="homechart" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgres</Config>
+  <Config Name="HOMECHART_app_adminaddresses" Target="HOMECHART_app_adminaddresses" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
