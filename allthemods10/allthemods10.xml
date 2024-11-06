@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>allthemods10</Name>
+  <Repository>w3lfare/allthemods10:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/w3lfare/allthemods10</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-10</Project>
+  <Overview/>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/Goobaroo/unraid-templates/master/allthemods9_server.xml</TemplateURL>
+  <Icon>https://media.forgecdn.net/avatars/thumbnails/1098/957/256/256/638645426291861588.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1706585403</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Installed Location" Target="/data" Default="/mnt/user/appdata/allthemods9/" Mode="rw" Description="Path to store the installed server files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/allthemods10/</Config>
+  <Config Name="EULA" Target="EULA" Default="false" Mode="{3}" Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Server will not start without accepting. Set to 'true' to accept." Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="JVM_OPTS" Target="JVM_OPTS" Default="-Xms2048m -Xmx4096m" Mode="{3}" Description="JAVA Options" Type="Variable" Display="always" Required="false" Mask="false">-Xms2G -Xmx4G</Config>
+  <Config Name="OPS" Target="OPS" Default="" Mode="{3}" Description="Comma separated list of players to have op capability" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="MOTD" Target="MOTD" Default="" Mode="{3}" Description="Set the server MOTD" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Port for the server" Type="Port" Display="always" Required="false" Mask="false">25565</Config>
+</Container>
