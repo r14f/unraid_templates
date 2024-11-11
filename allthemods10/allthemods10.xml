@@ -9,7 +9,9 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-10</Project>
-  <Overview/>
+  <Overview>A Modded Java Minecraft server container for Unraid that runs All the Mods 10</Overview>
+
+  
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL>https://raw.githubusercontent.com/Goobaroo/unraid-templates/master/allthemods9_server.xml</TemplateURL>
