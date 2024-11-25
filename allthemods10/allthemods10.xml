@@ -7,14 +7,14 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/180452-support-allthemods10/<Support/>
   <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-10</Project>
   <Overview>A Modded Java Minecraft server container for Unraid that runs All the Mods 10</Overview>
 
   
   <Category>GameServers:</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/Goobaroo/unraid-templates/master/allthemods9_server.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/W3LFARe/unraid_templates/refs/heads/main/allthemods10/allthemods10.xml</TemplateURL>
   <Icon>https://media.forgecdn.net/avatars/thumbnails/1098/957/256/256/638645426291861588.png</Icon>
   <ExtraParams/>
   <PostArgs/>
