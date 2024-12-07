@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="2">
+<Container version="1.27">
   <Name>allthemods10</Name>
   <Repository>w3lfare/allthemods10:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/w3lfare/allthemods10</Registry>
@@ -8,10 +8,10 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/180452-support-allthemods10/</Support>
-  <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-9</Project>
+  <Project>https://www.curseforge.com/minecraft/modpacks/all-the-mods-10</Project>
   <Overview>A Modded Java Minecraft server container for Unraid that runs All the Mods 10</Overview>
   <Category>GameServers:</Category>
-  <ExtraSearchTerms>minecraft</ExtraSearchTerms>
+  <ExtraSearchTerms>minecraft allthemods10 atm10</ExtraSearchTerms>
   <Icon>https://media.forgecdn.net/avatars/thumbnails/1098/957/256/256/638645426291861588.png</Icon>
 <Config
       Type="Path"
@@ -59,6 +59,33 @@
       Display="always"
       Required="false"
       Mask="false"/>
+  <Config
+      Type="Variable" 
+      Name="Enable Whitelist"
+      Target="ENABLE_WHITELIST"
+      Default="true"
+      Description="Enable (true)/Disable (false) Whitelist on the Server"
+      Display="always"
+      Required="false"
+      Mask="false">true</Config>
+  <Config
+      Type="Variable" 
+      Name="Whitelist Users"
+      Target="WHITELIST_USERS"
+      Default=""
+      Description="Add Users comma-seperated to the Whitelist.&#13;&#10;Example Value:&#13;&#10;TestUserName1, TestUserName2"
+      Display="always"
+      Required="false"
+      Mask="false"></Config>
+  <Config
+      Type="Variable" 
+      Name="Op Users"
+      Target="OP_USERS"
+      Default=""
+      Description="Add Users comma-seperated to the OP list.&#13;&#10;Example Value:&#13;&#10;TestUserName1, TestUserName2"
+      Display="always"
+      Required="false"
+      Mask="false"></Config>
   <Config
       Type="Port"
       Name="Port"
