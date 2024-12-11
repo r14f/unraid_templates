@@ -3,7 +3,7 @@
   <Name>homechart</Name>
   <Repository>ghcr.io/candiddev/homechart:latest</Repository>
   <Registry>ghcr.io/candiddev/homechart:latest</Registry>
-  <Network>eraflew</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
