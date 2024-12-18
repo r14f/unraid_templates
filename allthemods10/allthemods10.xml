@@ -43,15 +43,6 @@
       Mask="false">-Xms2048m -Xmx4096m</Config>
   <Config
       Type="Variable"
-      Name="OPS"
-      Target="OPS"
-      Default=""
-      Description="Comma separated list of players to have op capability"
-      Display="always"
-      Required="false"
-      Mask="false"/>
-  <Config
-      Type="Variable"
       Name="MOTD"
       Target="MOTD"
       Default=""
