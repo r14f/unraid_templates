@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="1.27">
+<Container version="2">
   <Name>allthemods10</Name>
   <Repository>w3lfare/allthemods10:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/w3lfare/allthemods10</Registry>
@@ -49,7 +49,34 @@
       Description="Set the server MOTD"
       Display="always"
       Required="false"
-      Mask="false"/>
+      Mask="false"/></Config>
+  <Config
+      Type="Variable"
+      Name="ALLOW_FLIGHT"
+      Target="ALLOW_FLIGHT"
+      Default="true"
+      Description="Set Flight"
+      Display="always"
+      Required="false"
+      Mask="false"/></Config>
+  <Config
+      Type="Variable"
+      Name="MAX_PLAYERS"
+      Target="MAX_PLAYERS"
+      Default="true"
+      Description="Set Player Limit"
+      Display="always"
+      Required="false"
+      Mask="false"/>5</Config>
+  <Config
+      Type="Variable"
+      Name="ONLINE_MODE"
+      Target="ONLINE_MODE"
+      Default="true"
+      Description="Set Online mode"
+      Display="always"
+      Required="false"
+      Mask="false"/></Config>
   <Config
       Type="Variable" 
       Name="Enable Whitelist"
